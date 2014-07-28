@@ -1,0 +1,4 @@
+Dan Rutledge djr2228
+Jim Given rjg2238
+
+In this lab we implemented two tracking agents, one that use exact inference to track ghosts and another that uses particle filtering to track ghosts. Both of us were here for the majority of the assignment and used pair programming as our main approach to the project. The few times we were seperated, we tried to debug the code which only created more bugs and forced us to revert to an older commit, so I guess you can say we learned the value of pair programming. The two main functions that each agent needed to imlement were observe and elapse time. In observe we had to update our beliefs based upon information from the (fuzzy) sesnsor. Here we do not model time, but instead we model our interaction with the outside world. In elapseTime we have to update our beliefs based on the rules of the game and our predicted behavior of the ghosts. Each call mimics the passage of time, but is agnostic to the outside world. 
